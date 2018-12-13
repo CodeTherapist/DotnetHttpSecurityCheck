@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <Authors>CodeTherapist</Authors>
+    <Copyright>Copyright © CodeTherapist</Copyright>
+    <Version>1.0.0</Version>
+    <LangVersion>Latest</LangVersion>
+    <ErrorReport>none</ErrorReport>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>portable</DebugType>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>

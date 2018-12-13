@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\Shared.props" />
+  <Import Project="..\..\Shared.Package.props" />
+  <Import Project="..\..\Shared.Dependencies.props" />
+
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Product>dotnet-http-security-check</Product>
+    <IsPackable>true</IsPackable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dotnet-http-security-check</ToolCommandName>
+    <Description>A dotnet tool to do a http request/response security assessment.</Description>
+    <Copyright>CodeTherapist</Copyright>
+    <PackageTags>HTTP, Tool, Security, Headers</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeTherapy.HttpSecurityCheck\CodeTherapy.HttpSecurityCheck.csproj" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+</Project>

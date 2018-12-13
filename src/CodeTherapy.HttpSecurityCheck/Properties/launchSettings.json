@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "CodeTherapy.HttpSecurityChecks": {
+      "commandName": "Project"
+    }
+  }
+}

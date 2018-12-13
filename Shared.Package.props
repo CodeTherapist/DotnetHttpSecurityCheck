@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/CodeTherapist/DotnetHttpSecurityCheck</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CodeTherapist/DotnetHttpSecurityCheck.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+  </PropertyGroup>
+</Project>

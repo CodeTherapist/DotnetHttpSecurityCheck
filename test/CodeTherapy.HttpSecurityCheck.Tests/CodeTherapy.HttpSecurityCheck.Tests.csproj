@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\Shared.props" />
+  <Import Project="..\..\Shared.Dependencies.Test.props" />
+
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <ProjectReference Include="..\..\src\CodeTherapy.HttpSecurityCheck\CodeTherapy.HttpSecurityCheck.csproj" />
+  </ItemGroup>
+</Project>

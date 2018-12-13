@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetHttpSecurityCheck", "src\DotnetHttpSecurityCheck\DotnetHttpSecurityCheck.csproj", "{9D958890-3DC5-4D27-B2AD-E83371613C69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTherapy.HttpSecurityCheck", "src\CodeTherapy.HttpSecurityCheck\CodeTherapy.HttpSecurityCheck.csproj", "{C4B04422-F371-4DF7-9BC9-14D11DC5F18C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTherapy.HttpSecurityCheck.Tests", "test\CodeTherapy.HttpSecurityCheck.Tests\CodeTherapy.HttpSecurityCheck.Tests.csproj", "{A8D12B50-0714-42EE-8775-18317319D777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E9D6CE9-8219-4DB3-8957-70088AD00855}"
+	ProjectSection(SolutionItems) = preProject
+		Build.ps1 = Build.ps1
+		BuildTestPack.ps1 = BuildTestPack.ps1
+		Functions.ps1 = Functions.ps1
+		gitignore.txt = gitignore.txt
+		Pack.ps1 = Pack.ps1
+		README.md = README.md
+		Shared.Dependencies.props = Shared.Dependencies.props
+		Shared.Dependencies.Test.props = Shared.Dependencies.Test.props
+		Shared.Package.props = Shared.Package.props
+		Shared.props = Shared.props
+		Test.ps1 = Test.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D958890-3DC5-4D27-B2AD-E83371613C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D958890-3DC5-4D27-B2AD-E83371613C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D958890-3DC5-4D27-B2AD-E83371613C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D958890-3DC5-4D27-B2AD-E83371613C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B04422-F371-4DF7-9BC9-14D11DC5F18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B04422-F371-4DF7-9BC9-14D11DC5F18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B04422-F371-4DF7-9BC9-14D11DC5F18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B04422-F371-4DF7-9BC9-14D11DC5F18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D12B50-0714-42EE-8775-18317319D777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D12B50-0714-42EE-8775-18317319D777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D12B50-0714-42EE-8775-18317319D777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D12B50-0714-42EE-8775-18317319D777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A2C5A5C-0EDB-4CF9-A34F-3CA550A0BD4E}
+	EndGlobalSection
+EndGlobal
