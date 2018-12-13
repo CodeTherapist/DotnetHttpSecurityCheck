@@ -10,7 +10,7 @@ Download and install the [.NET Core 2.2 SDK](https://www.microsoft.com/net/downl
 dotnet tool install DotnetHttpSecurityCheck -g
 ```
 
-If you already have a previous version of **DotnetHttpSecurityCheck** installed, you can upgrade to the latest version using the following command:
+If you already have a previous version of [DotnetHttpSecurityCheck](https://www.nuget.org/packages/DotnetHttpSecurityCheck/) installed, you can upgrade to the latest version using the following command:
 
 ```text
 dotnet tool update DotnetHttpSecurityCheck -g
@@ -114,7 +114,7 @@ Code Coverage (powered by [Coverlet](https://github.com/tonerdo/coverlet))
 
 ## Build, Test & Pack
 
-The projects separates the three concerns _Building_, _Testing_ and _Packaging_.
+The project separates the three concerns _Building_, _Testing_ and _Packaging_.
 All of these steps could be execeuted individually.
 
 **BuildTestPack.ps1**
