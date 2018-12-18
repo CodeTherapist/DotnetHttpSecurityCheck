@@ -115,7 +115,7 @@ Code Coverage (powered by [Coverlet](https://github.com/tonerdo/coverlet))
 ## Build, Test & Pack
 
 The project separates the three concerns _Building_, _Testing_ and _Packaging_.
-All of these steps could be execeuted individually.
+All of these steps could be executed individually.
 
 **BuildTestPack.ps1**
 
