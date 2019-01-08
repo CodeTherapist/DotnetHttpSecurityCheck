@@ -1,6 +1,7 @@
 # dotnet http-security-check
 
-A .NET Core global tool to do a http request/response security assessment.
+A .NET Core global tool to do a http request/response security assessment. 
+You can also find some information on my [Blog](https://codetherapist.github.io/blog/dotnet-http-security-check/).
 
 ## Installation
 
