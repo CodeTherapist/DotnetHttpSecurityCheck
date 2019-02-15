@@ -8,13 +8,13 @@ You can also find some information on my [Blog](https://codetherapist.github.io/
 Download and install the [.NET Core 2.2 SDK](https://www.microsoft.com/net/download) or newer. Once installed, run the following command:
 
 ```text
-dotnet tool install DotnetHttpSecurityCheck -g
+dotnet tool install -g DotnetHttpSecurityCheck
 ```
 
 If you already have a previous version of [DotnetHttpSecurityCheck](https://www.nuget.org/packages/DotnetHttpSecurityCheck/) installed, you can upgrade to the latest version using the following command:
 
 ```text
-dotnet tool update DotnetHttpSecurityCheck -g
+dotnet tool update -g DotnetHttpSecurityCheck
 ```
 
 ## Usage
